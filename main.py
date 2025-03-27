@@ -45,7 +45,7 @@ def get_groq_response(question):
 st.title("Coding Chatbot")
 
 # Display an image placeholder
-st.image("coding.jpg", width=500, caption="Coding")
+st.image("coding.jpg", width=300, caption="Coding")
 
 # Adjust CSS for padding and text wrapping
 st.markdown("""
@@ -99,7 +99,7 @@ for message in st.session_state.conversation:
         st.markdown(f"**Assistant:** {message['content']}")
 
 # Additional Streamlit widgets for beautification
-st.sidebar.header("Ronaldo App")
+st.sidebar.header("Coding ChatBot")
 st.sidebar.markdown('<div class="sidebar-text">This app allows you to ask questions about Coding.</div>', unsafe_allow_html=True)
 
 # Add a footer
